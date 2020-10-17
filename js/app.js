@@ -92,7 +92,47 @@ function Store(locationName,minCust,maxCust,avgCookieSale){
 
   // Lima Location
   var lima = new Store("Lima", 2, 16, 4.6);
-  lima.renderHourlySales();
+	lima.renderHourlySales();
+	
+
+	// Working on Render of Table. Might need to include above.
+//	var shopTable = document.getElementById("shopsTable");
+
+//	shopTable.prototype.render = function () {
+		//creat row
+//		var tr = document.createElement('tr');
+//		var td = document.createElement('td');
+//		td.textContent = this.name;
+//		tr.appendChild(td);
+//	}
+
+//	function renderHeader(){
+//		var tr = document.createElement('tr');
+//		var th = document.createElement('th');
+//		th.textContent = 'Name';
+//		tr.appendChild(th);
+
+//		th = document.createElement('th');
+//		th.textContent = 'Interest One';
+//		tr.appendChild(th);
+	
+//		th = document.createElement('th');
+//		th.textContent = 'Interest Two';
+//		tr.appendChild(th);
+	
+//		th = document.createElement('th');
+//		th.textContent = 'Interest Three';
+//		tr.appendChild(th);
+	
+//		th = document.createElement('th');
+//		th.textContent = 'Age';
+//		tr.appendChild(th);
+	
+//		shopTable.appendChild(tr);
+//	}
+
+
+
 
 // the pattern
 // creat element
