@@ -1,8 +1,8 @@
 'use strict';
 
-console.log('hello world'); {
+// console.log('hello world'); {
 
-}
+// }
 
 ///Store Constructor
 function Store(locationName,minCust,maxCust,avgCookieSale){
@@ -74,18 +74,23 @@ function Store(locationName,minCust,maxCust,avgCookieSale){
 	};
 }
 
+  // Seattle Location
   var seattle = new Store("Seattle", 23, 65, 6.3);
   seattle.renderHourlySales();
 
+  // Tokyo Location
   var tokyo = new Store("Tokyo", 3, 24, 1.2);
   tokyo.renderHourlySales();
 
+  // Dubai Location
   var dubai = new Store("Dubai", 11, 38, 3.7);
   dubai.renderHourlySales();
 
+  // Paris Location
   var paris = new Store("Paris", 20, 38, 2.3);
   paris.renderHourlySales();
 
+  // Lima Location
   var lima = new Store("Lima", 2, 16, 4.6);
   lima.renderHourlySales();
 
