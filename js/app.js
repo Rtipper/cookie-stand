@@ -65,7 +65,7 @@ function Store(locationName,minCust,maxCust,avgCookieSale){
 		
 		//Render the total sales
     var totalSales = document.createElement('li');
-    totalSales.textContent = this.totalSales;
+    totalSales.textContent = "Total: "+this.totalSales+" cookies";
 		locationHourlySales.appendChild(totalSales);
 		
 		//Add everything to the store page element
