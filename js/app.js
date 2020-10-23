@@ -18,7 +18,7 @@ function Store(locationName,minCust,maxCust,avgCookieSale){
 	this.maxCust = maxCust;
 	this.avgCookieSale = avgCookieSale;
 	this.locationName = locationName;
-	this.hoursOfOperation = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
+	this.hoursOfOperation = ['6AM', '7AM', '8AM', '9AM', '10AM', '11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM', '7PM', '8PM'];
 	this.hourlySales = new Map();
 	
 	//Returns the number of cookies sold at a specified time
@@ -107,7 +107,7 @@ function getStoreTable(){
 
 //Render the store table header containing store hours
 function renderStoreTableHeader(){
-	var hoursOfOperation = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
+	var hoursOfOperation = ['6AM', '7AM', '8AM', '9AM', '10AM', '11AM', '12PM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM', '7PM', '8PM'];
 	
 	//Get parent element
 	var storeTable = getStoreTable();
