@@ -49,17 +49,17 @@ body {
   }
 }
 
-/* Text Content */
+/* Text & Images */
 .salmon1 {
   height: 50px;
-  margin: 25px 5px 5px 535px;
+  margin: 25px 5px 5px 615px;
   float: left;
   transform: scaleX(-1);
 }
 
 .salmon2 {
   height: 50px;
-  margin: 25px 535px 5px 5px;
+  margin: 25px 615px 5px 5px;
   float: right;
   
 }
@@ -68,40 +68,24 @@ h1 {
   text-align: center;
   font-family: 'Staatliches', cursive;
   font-size: 80px;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 25px 10px 25px;
 }
 
-header {
-  height: 50px;
-}
-
-header nav {
-  margin: auto;
-  width: 960px;
-}
-
-header li {
-  display: inline-block;
-  margin-left: 80px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-family: 'Staatliches', cursive;
-  display: inline-block;
-}
-
-nav a:hover {
-  color: rgb(216, 85, 85);
-  transition: 350ms;
-}
-
-#imagesSalmon {
+h4 {
   text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 16px;
+  margin: 10px 25px 10px 25px;
 }
-#imagesSalmon img {
-  height: 100px;
-  vertical-align: middle;
-  
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: rgb(216, 85, 85);
+}
+
+a:hover {
+  color: rgb(240, 140, 140);
 }
