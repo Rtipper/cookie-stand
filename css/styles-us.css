@@ -49,6 +49,20 @@ body {
 }
 
 /* Text Content */
+.salmon1 {
+  height: 50px;
+  margin: 25px 5px 5px 615px;
+  float: left;
+  transform: scaleX(-1);
+}
+
+.salmon2 {
+  height: 50px;
+  margin: 25px 615px 5px 5px;
+  float: right;
+  
+}
+
 h1 {
   text-align: center;
   font-family: 'Staatliches', cursive;
@@ -107,21 +121,26 @@ main h2 {
   /* font-weight: bold */
 }
 
-main p {
+.para1 {
 height: 125px;
-font-style: italic;
 margin-left: 30px;
 margin-top: 5px;
 }
 
+.para2 {
+margin-left: 30px;
+margin-top: 75px;
+}
+
 main div {
-background-color: #111;
-color: #eee;
 font-size: 20px;
-margin-top: 5px;
+margin-top: 10px;
 margin-left: 30px;
 padding: 10px 30px;
 display: inline-block;
 border-radius: 5px;
 cursor: pointer;
+overflow: hidden;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+font-family: 'Staatliches', cursive;
 }

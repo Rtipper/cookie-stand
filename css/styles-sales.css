@@ -49,6 +49,20 @@ body {
 }
 
 /* Table and Text */
+.salmon1 {
+  height: 50px;
+  margin: 25px 5px 5px 515px;
+  float: left;
+  transform: scaleX(-1);
+}
+
+.salmon2 {
+  height: 50px;
+  margin: 25px 515px 5px 5px;
+  float: right;
+  
+}
+
 h1 {
   text-align: center;
   font-family: 'Staatliches', cursive;

@@ -48,6 +48,20 @@ body {
     transform: translate3d(0,5px,0);
   }
 }
+/* Text & Images */
+.salmon1 {
+  height: 50px;
+  margin: 25px 5px 5px 490px;
+  float: left;
+  transform: scaleX(-1);
+}
+
+.salmon2 {
+  height: 50px;
+  margin: 25px 490px 5px 5px;
+  float: right;
+  
+}
 
 h1 {
   text-align: center;
