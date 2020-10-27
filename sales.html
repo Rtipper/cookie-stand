@@ -24,7 +24,26 @@
     <ul id="paris"></ul>
     <ul id="lima"></ul>
 
-  <table id="store-table"></table>
+    <form id="addStoreForm" name="addStoreForm">
+      <fieldset>
+        <legend>Log Sales:</legend>
+        <label for="locationName">Location Name:</label><br>
+          <input type="text" id="locationName" name="locationName" required="required"/><br>
+        <label for="minCust">Minimum Customers Per Hour:</label><br>
+          <input type="text" id="minCust" name="minCust" required="required" pattern="\d*"/><br>
+        <label for="maxCust">Maximum Customers Per Hour:</label><br>
+          <input type="text" id="maxCust" name="maxCust" required="required" pattern="\d*"/><br>
+        <label for="avgCookieSale">Average Cookies Sold Per Hour:</label><br>
+          <input type="text" id="avgCookieSale" name="avgCookieSale" required="required" pattern="\d*"/><br><br>
+        <input type="submit" value="Add Store"/>
+      </fieldset>
+    </form>
+
+    <table  id="store-table"></table>
+
+
+
+    
 
   </main>
 
