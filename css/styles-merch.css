@@ -92,8 +92,15 @@ a:hover {
 
 /* Images */
 
+.fish {
+  margin-left: 300px;
+  margin-top: 50px;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+}
 .cutter {
-  margin-left: 625px;
+  margin-left: 25px;
   margin-top: 50px;
   display: inline-block;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -101,7 +108,15 @@ a:hover {
 }
 
 .shirt {
-  margin-left: 50px;
+  margin-left: 25px;
+  margin-top: 50px;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+}
+
+.frosted {
+  margin-left: 25px;
   margin-top: 50px;
   display: inline-block;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
