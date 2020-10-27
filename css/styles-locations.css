@@ -170,3 +170,12 @@ box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 font-family: 'Staatliches', cursive;
 text-align: center;
 }
+
+#imagesSalmon {
+  text-align: center;
+}
+#imagesSalmon img {
+  height: 200px;
+  vertical-align: middle;
+  
+}
